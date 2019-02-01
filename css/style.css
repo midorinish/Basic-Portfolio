@@ -5,11 +5,12 @@
 body {
     background-color: #4aaaa5;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     width: 100vw;
     height: 100vh;
+    font-family: 'Muli', sans-serif;
 }
 
 header {
@@ -37,6 +38,7 @@ h1 {
     color: white;
     font-size: 15pt;
     font-family: 'Georgia', Times, serif;
+    border:2px solid #cccccc;
 }
 
 .nav {
@@ -48,6 +50,7 @@ h1 {
     width: 25rem;
     height: 5rem;
     margin: 1pt;
+    border:2px solid #cccccc;
 }
 
 ul {
@@ -61,6 +64,7 @@ ul {
     color: white;
     font-size: 15pt;
     font-family: 'Georgia', Times, serif;
+   
 }
 
 li{
@@ -82,8 +86,11 @@ li a {
 
 li a:hover {
     background-color: palegreen;
-    color: rgb (255, 255, 255, 1);
   }
+
+li a:active {
+    background-color: lightcoral;
+}
 
 h2 {
     display: flex;
@@ -111,6 +118,11 @@ h2 {
     margin: 2.5rem;
     padding: 2.5rem;
 }
+
+p {
+    color: #4aaaa5;
+}
+
 
 
 footer {
@@ -142,4 +154,34 @@ footer {
     border:2px solid #cccccc;
     margin: 2.5rem;
     padding: 2.5rem;
+}
+
+#imageContainer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: row;
+    margin: 2.5rem;
+    padding: 2.5rem;
+
+}
+
+
+/*CONTACT*/
+
+#formContainer {
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 2.5rem;
+    padding: 2.5rem;
+
+}
+
+form {
+    border:2x solid #cccccc;
+    font-size: 10pt;
 }
