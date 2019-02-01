@@ -144,9 +144,11 @@ footer {
     height: 60vh;
 
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: column;
 
     background-color: #ffffff;
     color: black;
@@ -158,14 +160,17 @@ footer {
 
 #imageContainer1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-
+    align-content: space-around;
     flex-direction: row;
+   
     margin: 2.5rem;
     padding: 2.5rem;
 
 }
+
+.portimg
 
 
 /*CONTACT*/
