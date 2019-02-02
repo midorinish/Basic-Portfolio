@@ -25,6 +25,7 @@ header {
     width: 100vw;
     height: 5rem;
     margin: 2pt;
+    border: 2px solid #cccccc;
 }
 
 h1 {
@@ -39,6 +40,7 @@ h1 {
     font-size: 15pt;
     font-family: 'Georgia', Times, serif;
     border:2px solid #cccccc;
+    border-radius: 7px;
 }
 
 .nav {
@@ -51,6 +53,7 @@ h1 {
     height: 5rem;
     margin: 1pt;
     border:2px solid #cccccc;
+    border-radius: 7px;
 }
 
 ul {
@@ -115,6 +118,7 @@ h2 {
     color: black;
     font-family: 'Times New Roman', Times, serif;
     border:2px solid #cccccc;
+    border-radius: 7px;
     margin: 2.5rem;
     padding: 2.5rem;
 }
@@ -130,10 +134,11 @@ footer {
     justify-content: center;
     align-items: center;
     align-self: flex-end;
-    background-color: #4aaaa5;
-    color: white;
+    background-color: #ffffff;
+    color: black;
     width: 100vw;
     height: 3rem;
+    border: 2px solid #cccccc;
 }
 
 
@@ -179,16 +184,29 @@ img:hover {
 
 #formContainer {
 
+    width: 50%;
+    padding: 12px;
+    border: 2px solid #cccccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 75px;
+    margin-bottom: 15rem;
+    font-size: 20px;
+
+
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    margin: 2.5rem;
-    padding: 2.5rem;
-
+    justify-content: flex-start;
+    align-items: center;
+    
 }
 
-form {
-    border:2x solid #cccccc;
-    font-size: 10pt;
+textarea {
+
+    width: 35rem;
 }
+
+.submit {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-between;
